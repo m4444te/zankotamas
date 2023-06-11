@@ -1,0 +1,114 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, p, nav {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+ul {
+  width: 100%;
+  margin-top: 2em;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10%;
+  width: auto;
+  margin-right: 0.5%;
+  padding-left: 0;
+  margin-left: 0;
+}
+li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover, a:active {
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+.container {
+  padding: 40px 5%;
+}
+
+.heading-text {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  display: block;
+  max-width: 50%;
+}
+
+img:hover {
+  background: rgba(57, 57, 57, 0.502);
+}
+
+ul {
+  width: 100%;
+  margin-top: 2em;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover, a:active {
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+.container {
+  padding: 5% 5%;
+}
+
+.heading-text {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.heading-text span {
+  font-weight: 100;
+}
+
+/* Largeur minimale */
+@media (min-width: 35rem) {
+  img {
+    max-width: 20%;
+  }
+}
+
