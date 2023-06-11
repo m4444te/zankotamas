@@ -34,6 +34,7 @@ a, a:hover {
 p {
   padding: 1em;
   font-size: xx-large;
+  text-align: justify;
 }
 
 a:hover {
