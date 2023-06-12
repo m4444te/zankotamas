@@ -10,11 +10,6 @@ h1, p, nav {
   text-align: center;
 }
 
-img {
-  margin: auto;
-  display: block;
-}
-
 ul {
   width: 100%;
   margin-top: 2em;
