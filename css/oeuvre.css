@@ -92,7 +92,7 @@ a:hover {
   transform: scale(1);
 }
 
-#exhibition-banner-oeuvre {
+.exhibition-banner-oeuvre {
   background-color: #FFD700;
   color: black;
   font-size: xx-large;
